@@ -6,7 +6,7 @@ Originally, Foldseek takes as the input a single PDB file and converts its seque
 
 Bash script was created foldseek.sh to include **multiple PDB** files and MSA as input, so that this is the same input that FrustraEvo requires. This is executed with:
 ```
-$ ./foldseek.sh PDB_DIRECTORY MSA_FILE
+foldseek.sh PDB_DIRECTORY MSA_FILE
 ```
 Executing this script will generate several files:
 
@@ -22,7 +22,7 @@ Executing this script will generate several files:
 
 
 ```
-$ Rscript MSFA.R --dir FRUSTRAEVO_DIRECTORY --jobid JOBID
+Rscript MSFA.R --dir FRUSTRAEVO_DIRECTORY --jobid JOBID
 ```
 Executing this script creates 4 files:
 

@@ -2,7 +2,7 @@
 
 This updated version of the MSFA.R script enables the generation of energetic frustration profiles using 3Di labels instead of the original amino acid labels. The script relies on auxiliary files located in the /AuxFiles directory, particularly the DF_Colores file. Before executing this script, ensure that all necessary FrustraEvo outputs have been generated. You can calculate frustration and obtain evolutionary profiles for your protein family using the original FrustraEvo server, developed by Parra & Freiberger et al. (bioRxiv, 2023). Access the server at: [FrustraEvo](https://frustraevo.qb.fcen.uba.ar) or configure the software by following the instructions at [FrustraEvo Github](https://github.com/proteinphysiologylab/FrustraEvo).
 
-Originally, Foldseek takes as the input a single PDB file and converts its sequence to 3di. (I installed foldseek as a precompiled binary, locally - so this is a requirement in order to execute the script. You can find the installation process on the original foldseek depository at https://github.com/steineggerlab/foldseek) 
+Originally, Foldseek takes as the input a single PDB file and converts its sequence to 3di. I installed foldseek as a precompiled binary, locally - so this is a requirement in order to execute the script. You can find the installation process on the original foldseek depository at [Foldseek Githuub](https://github.com/steineggerlab/foldseek) 
 
 Bash script was created foldseek.sh to include **multiple PDB** files and MSA as input, so that this is the same input that FrustraEvo requires. This is executed with:
 ```
